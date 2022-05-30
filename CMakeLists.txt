@@ -25,6 +25,8 @@ target_include_directories(${APP_TARGET}
 target_sources(${APP_TARGET}
     PRIVATE
         source/main.cpp
+        source/nano_errata.cpp
+        source/sensor.cpp
 )
 
 target_link_libraries(${APP_TARGET}

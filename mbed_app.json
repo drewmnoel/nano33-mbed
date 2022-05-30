@@ -1,0 +1,8 @@
+{
+  "target_overrides": {
+    "ARDUINO_NANO33BLE": {
+      "target.OUTPUT_EXT": "bin",
+      "target.mbed_app_start": "0x10000"
+    }
+  }
+}
